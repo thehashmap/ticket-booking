@@ -1,0 +1,33 @@
+[
+  {
+    "id": 101,
+    "trainNo": "12345",
+    "trainName": "Express Line",
+    "seats": [
+      [1, 0, 1, 1],
+      [1, 1, 0, 0],
+      [0, 1, 1, 1]
+    ],
+    "station": {
+      "Delhi": "06:30:00",
+      "Kanpur": "10:00:00",
+      "Lucknow": "13:30:00"
+    },
+    "stations": ["Delhi", "Kanpur", "Lucknow"]
+  },
+  {
+    "id": 102,
+    "trainNo": "67890",
+    "trainName": "Night Rider",
+    "seats": [
+      [1, 1, 1],
+      [0, 1, 0]
+    ],
+    "station": {
+      "Mumbai": "22:00:00",
+      "Pune": "23:30:00",
+      "Nashik": "01:15:00"
+    },
+    "stations": ["Mumbai", "Pune", "Nashik"]
+  }
+]
